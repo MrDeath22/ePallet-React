@@ -1,0 +1,60 @@
+.title {
+   padding-left: 10px;
+}
+
+.title > * {
+   display: block;
+}
+
+.title__txt {
+   font-weight: 700;
+   font-size: 15px;
+   margin-bottom: 10px;
+   color: #808080;
+}
+
+.title__name {
+   font-weight: 500;
+   font-size: 18px;
+   margin-bottom: 5px;
+}
+
+.title__size {
+   font-weight: 500;
+   font-size: 14px;
+   margin-bottom: 20px;
+   color: #909090;
+}
+
+.title__size span {
+   font-size: 15px;
+   color: #111;
+}
+
+.title__desc {
+   max-width: 500px;
+   color: #808080;
+}
+
+.title__btn {
+   display: inline-block;
+   font-weight: 500;
+   font-size: 14px;
+   text-decoration: underline;
+   transition: color 0.3s ease;
+}
+
+.title__btn i {
+   margin-right: 10px;
+}
+
+.title__btn::after {
+   position: relative;
+   right: 10px;
+   width: 300px;
+   height: 1px;
+   display: block;
+   content: "";
+   margin-top: 30px;
+   background: #aaa;
+}

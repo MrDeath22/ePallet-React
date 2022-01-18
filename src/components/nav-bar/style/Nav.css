@@ -1,0 +1,21 @@
+.nav {
+   padding: 20px 0;
+}
+
+.nav__list {
+   padding: 0;
+}
+
+.nav__link {
+   font-weight: 500;
+   color: #808080;
+   transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+   color: #111;
+}
+
+.nav__link--active {
+   color: #111;
+}

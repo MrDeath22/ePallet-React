@@ -1,0 +1,18 @@
+.slider__item:not(:last-child) {
+   margin-right: 12px;
+}
+
+.slider__img {
+   border-radius: 12px;
+   border: 2px solid #ccc;
+   transition: border 0.3s ease;
+   cursor: pointer;
+}
+
+.slider__img:hover {
+   border-color: #4990E2;
+} 
+
+.slider__img--active {
+   border-color: #4990E2;
+}

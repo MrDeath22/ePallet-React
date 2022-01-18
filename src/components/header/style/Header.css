@@ -1,0 +1,14 @@
+.header {
+   padding: 30px 0;
+}
+
+.profile__link {
+   font-weight: 500;
+   font-size: 16px;
+   margin-left: 35px;
+   color: #4990E2;
+}
+
+.profile__link i {
+   margin-right: 10px;
+}
